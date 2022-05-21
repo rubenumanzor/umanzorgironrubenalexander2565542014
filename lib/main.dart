@@ -34,7 +34,10 @@ class _AnimationMainState extends State<AnimationMain> {
             Lottie.network(
                 'https://assets10.lottiefiles.com/packages/lf20_0yfsb3a1.json',
                 width: 600,
-                fit: BoxFit.cover),
+                fit: BoxFit.cover,
+                animate: true
+                //si dejamos en false, no tendra animacion
+                ),
             buttonsection
           ],
         ),
